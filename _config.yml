@@ -6,7 +6,7 @@
 # --- Required options --- #
 
 # Name of website
-title: Angelo's Blog
+title: Angelo Catalani
 
 # Your name to show in the footer
 author: Angelo Catalani
@@ -14,7 +14,7 @@ author: Angelo Catalani
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
+  About Me /: "aboutme"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"

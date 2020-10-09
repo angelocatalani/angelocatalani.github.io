@@ -40,10 +40,10 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "catalaniangelo@gmail.com"
-  github: "https://github.com/angelocatalani"
-  instagram: "https://www.instagram.com/angelocatalani/?hl=it"
-  linkedin: "https://www.linkedin.com/in/angelo-catalani-3ab6b214a/"
-  stackoverflow: "https://stackoverflow.com/users/5578380/angelo"
+  github: "angelocatalani"
+  instagram: "angelocatalani/"
+  linkedin: "angelo-catalani-3ab6b214a/"
+  stackoverflow: "5578380/angelo"
 #  facebook: deanattali
 #  reddit: yourname
 #  linkedin: daattali

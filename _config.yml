@@ -14,11 +14,14 @@ author: Angelo Catalani
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me /: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Blog: "/"
+  Recommend:
+    - Books: "books"
+    - Movies: "movies"
+    - Article: "articles"
+  About Me / Contact: "aboutme"
+  Resume | CV: "resume/Angelo_Catalani.pdf"
+
 
 # --- Logo --- #
 
@@ -206,6 +209,8 @@ defaults:
       layout: "post"
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
+      show-share: true
+      show-subscribe: true
   -
     scope:
       path: "" # any file that's not a post will be a "page" layout by default

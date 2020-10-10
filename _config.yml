@@ -15,10 +15,6 @@ author: Angelo Catalani
 
 navbar-links:
   Blog: "/"
-  Recommend:
-    - Books: "books"
-    - Movies: "movies"
-    - Articles: "articles"
   About Me / Contact: "aboutme"
   Resume | CV: "resume/Angelo_Catalani.pdf"
 

@@ -25,4 +25,3 @@ css: "/assets/css/aboutme.css"
   <input type="hidden" name="_next" value="?message=Your message was sent successfully, thanks!" />
   <button type="submit" class="btn btn-lg btn-primary">Submit</button>
 </form>
-</div>

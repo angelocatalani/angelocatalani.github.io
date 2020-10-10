@@ -10,7 +10,7 @@ css: "/assets/css/aboutme.css"
 
 <p class="about-text">
 <span class="fa fa-briefcase about-icon"></span>
-Currently, I am an agile software engineer at <a href="https://www.claranet.it/"><strong>Claranet</strong></a>. Previously, I worked as <strong>backend developer</strong> at <a href="https://www.bendingspoons.com/"><strong>Bending Spoons</strong></a>.
+Currently, I am an agile software engineer at <a href="https://www.claranet.it/"><strong>Claranet</strong></a>. Previously, in 2019 I worked as <strong>backend developer</strong> at <a href="https://www.bendingspoons.com/"><strong>Bending Spoons</strong></a>.
 </p>
 
 <p class="about-text">
@@ -31,7 +31,7 @@ Sometimes, I participate to online coding contest.<br>
 
 <p class="about-text">
 <span class="fa fa-heart about-icon"></span>
-I'm addicted to soccer, cycling, reading and meeting new people :).
+I'm addicted to soccer, cycling, reading and meeting new people :).<br> I support Juventus since I was 4 years old. I am totally astounded by <a href="https://en.wikipedia.org/wiki/Tadej_Poga%C4%8Dar">Pogačar</a> performace at Tour de France 2020. I am truly amazed by the world world time trial title won by<a href="https://en.wikipedia.org/wiki/Filippo_Ganna">Filippo Ganna</a>. This week (10 October 2020) I am reading the great book: <a href="https://www.amazon.it/Deep-Work-Focused-Success-Distracted-ebook/dp/B013UWFM52">Deep Work</a>.
 </p>
 
 <p class="about-text">
@@ -41,7 +41,7 @@ The <strong><a href="/blog">blog</a></strong> page is a nice place to see some o
 
 <p class="about-text">
 <span class="fa fa-globe-americas about-icon"></span>
-I was born in Italy on 23 August 1995 and grew up in <i>Latina, Rome, Italy</i>; for several years I have been a Boy Scout and visited many countries backpacking; the most beatiful countries I have been are: <i>Amsterdam, Holland</i>, <i>Marbella, Spain</i>, <i>Copenaghen, Denmark</i> and <i>Lisbon, Portugal</i>; I would like to visit <i>Thailand</i>, <i>Island</i> and <i>Perù</i> .
+I was born in Italy on 23 August 1995 and grew up in <i>Latina, Rome, Italy</i>; for several years I have been a Boy Scout and visited many countries backpacking; the most attractive countries I visited are: <i>Amsterdam, Holland</i>, <i>Marbella, Spain</i>, <i>Copenaghen, Denmark</i> and <i>Lisbon, Portugal</i>; I would like to visit <i>Thailand</i>, <i>Island</i> and <i>Perù</i> .
 </p>
 
 </div>

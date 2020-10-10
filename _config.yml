@@ -15,10 +15,10 @@ author: Angelo Catalani
 
 navbar-links:
   Blog: "/"
-  About Me / Contact: 
+  About Me: 
     - resume: "resume"
     - interests: "interests"
-  Resume | CV: "resume/Angelo_Catalani.pdf"
+  Contact: "contact"
 
 # --- Logo --- #
 

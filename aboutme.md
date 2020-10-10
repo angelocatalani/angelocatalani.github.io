@@ -23,8 +23,8 @@ I Obtained my MSc in <strong>Engineering in Computer Science</strong> from the U
 <p class="about-text">
 <span class="fa fa-code about-icon"></span>
 I enjoy writing <strong>short & coincise software poems</strong> to solve problems and do innovation &mdash;
-I am proficient with: Python, C/C++, Docker, Terraform, Google Cloud.
-Sometimes, I participate to online coding contest.</br>
+I am proficient with: Python, C/C++, Docker, Terraform, Google Cloud Platform.
+Sometimes, I participate to online coding contest.<br>
 <i>A great discovery solves a great problem, but there is a grain of discovery in the solution of any problem</i>
 - George Pólya. 
 </p>

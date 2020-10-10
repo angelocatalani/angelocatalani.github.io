@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About me
-subtitle: The secret of life is to fall seven times and to get up eight times -Paulo Coelho
+title: Resume
+subtitle: The secret of life is to fall seven times and to get up eight times - Paulo Coelho
 share-title: "Angelo Catalani | About me"
 css: "/assets/css/aboutme.css"
 ---

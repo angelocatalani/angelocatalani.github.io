@@ -3,7 +3,6 @@ layout: page
 title: About me
 subtitle: I think it is possible for ordinary people to choose to be extraordinary - Elon Musk
 share-title: "Angelo Catalani | About me"
-share-description: "Problem solver with a MSc in Engineering in Computer Science."
 css: "/assets/css/aboutme.css"
 ---
 
@@ -11,63 +10,50 @@ css: "/assets/css/aboutme.css"
 
 <p class="about-text">
 <span class="fa fa-briefcase about-icon"></span>
-Currently an <a href="/shiny"><strong>R-Shiny consultant</strong></a>. Previously worked as a <strong>software engineer</strong> (Google, IBM, <a href="https://tagged.com" target="_blank">Tagged.com</a>) and <strong>web
-developer</strong> in tiny startups (<a href="https://wish.com" target="_blank">Wish.com</a>,
-<a href="https://web.archive.org/web/20121223025414/https://www.makeupbee.com/looks.php" target="_blank">MakeupBee.com</a>,
-<a href="http://glittr.com" target="_blank">glittr.com</a>,
-<a href="https://web.archive.org/web/20120309093005/https://www.jauntr.com/" target="_blank">jauntr.com</a>).
+Currently an agile software engineer at <a href="https://www.claranet.it/"><strong>Claranet</strong></a>. Previously worked as <strong>backend developer</strong> at <a href="https://www.bendingspoons.com/"><strong>Bending Spoons</strong></a>.
 </p>
 
 <p class="about-text">
 <span class="fa fa-graduation-cap about-icon"></span>
-Obtained my MSc in <strong>Bioinformatics</strong> from the University of British Columbia (supervised by the amazing
-<a href="https://twitter.com/JennyBryan" target="_blank">Jenny Bryan</a>) and my Bachelor of <strong>Computer Science</strong> from the
-University of Waterloo, Canada. My masters thesis project involved
-<a href="https://github.com/daattali/ddpcr" target="_blank">developing computational methods to automatically analyze
-droplet digital PCR</a> data.
+Obtained my MSc in <strong>Engineering in Computer Science</strong> from the University of Rome, La Sapienza (supervised by
+<a href="http://aris.me/" target="_blank">Aris Aris Anagnostopoulos</a> and <a href="http://ichatz.me/" target="_blank">Ioannis Chatzigiannakis</a>). My masters thesis project involved
+<a href="https://drive.google.com/file/d/1jZq8E1ZJkLabFedIG-wtL8IzepZdELkJ/view" target="_blank">developing machine learning algorithms to automatically detect heart arrhythmias</a> .
 </p>
 
 <p class="about-text">
 <span class="fa fa-code about-icon"></span>
-I enjoy writing <strong>useful & reusable software tools</strong> to help others &mdash; check out <a href="/projects">my projects</a>. In the past several years I've become an experienced R useR and an expert in R-Shiny.
+I enjoy writing <strong>short & coincise software poems</strong> to solve problems and do innovation &mdash;
+I am proficient with: Python, C/C++, Docker, Terraform, Google Cloud.
+Sometimes, I participate to online coding contest.
+<i>A great discovery solves a great problem, but there is a grain of discovery in the solution of any problem</i>
+- George Pólya, How to Solve It. 
 </p>
 
 <p class="about-text">
 <span class="fa fa-heart about-icon"></span>
-I'm addicted to soccer, <strong>travelling</strong> at any given (and non-given) moment, getting into philosophical debates,
-and meeting new people :) 
+I'm addicted to soccer, cycling, reading and meeting new people :).
 </p>
 
 <p class="about-text">
 <span class="fa fa-file-alt about-icon"></span>
-The <strong><a href="/projects">projects</a></strong> page is a nice place to see some of my work, but you can also view my (somewhat outdated) <a href="/resume">resume</a>. 
+The <strong><a href="/blog">blog</a></strong> page is a nice place to see some of my work and articles but you can also view my <a href="/resume/Angelo_Catalani.pdf">resume</a>. 
 </p>
 
 <p class="about-text">
 <span class="fa fa-globe-americas about-icon"></span>
-Grew up in <i>Tel Aviv, Israel</i>; moved to <i>Toronto, Canada</i> during my teens; worked in <i>San Francisco</i> after undergrad; crossed the border again to <i>Vancouver, Canada</i> for grad school; spent many months in other countries backpacking; returned to <i>Toronto</i> in 2017.
+I was born in Italy on 23 August 1995 and grew up in <i>Latina, Rome, Italy</i>; for several I have been a Boy Scout and visited many countries backpacking; the most beatiful countries I visited are: <i>Amsterdam, Holland</i>, <i>Marbella, Spain</i>, <i>Copenaghen, Denmark</i> and <i>Lisbon, Portugal</i>; I would like to visit <i>Thailand</i>, <i>Island</i> and <i>Perù</i> .
 </p>
-
-<p>I also have <a href="https://deanat78.wordpress.com/">an old blog</a>, mostly from high school and some old travelling trips, that I'll leave here just because I want to have a reference to it somewhere.</p>
 
 </div>
 
 <div id="contactme-section">
 <h1 id="contact">Contact</h1>
 
-<!--
-<div class="alert alert-danger" role="alert">
-I will be away until Feb 6, with very limited time to work. My responses will be slow during this period.
-</div>
--->
+
+<p>You can <a href="mailto:catalaniangelo@gmail.com?subject=Hello from angelocatalani.com">email me</a> if you want to get in touch. I love meeting new people so don't hesitate to send a message!</p>
 
 
-
-<p>You can <a href="mailto:dean@attalitech.com?subject=Hello from deanattali.com">email me</a> or find me <a href="https://twitter.com/daattali">on Twitter</a> if you want to get in touch. As I said, I love meeting new people so don't hesitate to send a message!</p>
-<p>My fulltime job is consulting work in R and Shiny, so feel free to get in touch if you want to discuss potential projects, your Shiny needs, or need any paid help.</p>
-<p>If you'd like to set up a meeting with me, <a href="https://calendly.com/attalitech/meeting">click here to schedule a meeting</a> based on your availability.</p>
-
-<form action="https://formspree.io/daattali@gmail.com" method="POST" class="form" id="contact-form">
+<form action="https://formspree.io/f/xpzoqnee" method="POST" class="form" id="contact-form">
   <p>You can also send me a quick message using the form below:</p>
   <div class="row">
     <div class="col-6">
@@ -77,35 +63,10 @@ I will be away until Feb 6, with very limited time to work. My responses will be
       <input type="text" name="name" class="form-control form-control-lg" placeholder="Name" title="Name">
     </div>
   </div>
-  <input type="hidden" name="_subject" value="New submission from deanattali.com">
+  <input type="hidden" name="_subject" value="New submission from angelocatalani.com">
   <textarea type="text" name="content" class="form-control form-control-lg" placeholder="Message" title="Message" required="required" rows="3"></textarea>
   <input type="text" name="_gotcha" style="display:none">
   <input type="hidden" name="_next" value="?message=Your message was sent successfully, thanks!" />
-  
-  <div style="font-size: 12px; margin: -10px 0 10px;">Please do not use this form to send me full code samples or ask me to fix an app for free. Due to the volume of questions I receive I unfortuantely cannot offer free support.</div>
-  
   <button type="submit" class="btn btn-lg btn-primary">Submit</button>
 </form>
-
-<p id="address">If you'd like to get in touch and are very old-school, you can send a letter to:<br/>102 Beverley Glen Blvd, Thornhill, ON L4J7V2, Canada.</p>
-
-</div>
-
-<br/>
-
-<div id="feed-meeee">
-  <br/>
-  <h1>Help feed me & my coding obsession</h1>
-  <p>If you want to show your support for any of the <a href="/projects">open source projects</a> I devote my time to, here's a PayPal one-time Donate button that you may click :) You can also choose to become an official sponsor for my long-term development of open-source projects (sponsoring me comes with some <a href="https://github.com/sponsors/daattali">additional perks for you</a>).</p>
-  <p align="center">
-    <a style="display: inline-block;" href="https://paypal.me/daattali">
-      <img height="40" src="https://camo.githubusercontent.com/0e9e5cac101f7093336b4589c380ab5dcfdcbab0/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f74776f6c66736f6e2f70617970616c2d6769746875622d627574746f6e40312e302e302f646973742f627574746f6e2e737667" />
-    </a>
-    <a style="display: inline-block; margin-left: 10px;" href="https://github.com/sponsors/daattali">
-      <img height="40" src="https://i.imgur.com/034B8vq.png" />
-    </a>
-  </p>
-  
-  
-  <p>My open-source projects started as a fun hobby, but as my tools and content got more popular, it has turned into a full-time job commitment (often taking up 20-40 hours per week). Except with 0 pay and no employer benefits :) My goal is to be able to focus as much as I can on <strong>open-source work that benefits the entire community</strong> rather than individual clients, and I can only reach that goal by getting supported for my hard work.</p>
 </div>

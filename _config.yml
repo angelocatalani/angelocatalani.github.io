@@ -16,8 +16,8 @@ author: Angelo Catalani
 navbar-links:
   Blog: "/"
   About Me / Contact: 
-    - "resume"
-    - "interests"
+    - resume: "resume"
+    - interests: "interests"
   Resume | CV: "resume/Angelo_Catalani.pdf"
 
 # --- Logo --- #

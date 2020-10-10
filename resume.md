@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: You always pass failure on your way to success - Mickey Rooney
+subtitle: The secret of life is to fall seven times and to get up eight times -Paulo Coelho
 share-title: "Angelo Catalani | About me"
 css: "/assets/css/aboutme.css"
 ---

@@ -18,7 +18,11 @@ Herem I would like to discuss  [the *Batman* problem](https://www.spoj.com/probl
 {: .box-note}
 Given a list of unique integers, find the increasing (`IS`) and decreasing (`DS`) subsequencses such that the overall number of distinct elements visited is maximum.  For example given `[5, 3, 4, 6, 1, 2]` the output is `5`  with `IS = [3, 6]` and `DS = [5, 4, 2]`.
 
-My first approach to solve this problem was to apply the same idea beneath the classical `Longest Increasing Subsequence` problem: however this is not an effective strategy. In fact in our specific case we need somehow to take into consideration the possibility not to add an element because it was already added to the decreasing subsequence or viceversa. In a few words my strategy to model the state as  `opt(i,j) := the optimal solution when you add the i-th items to IS and the j-th item to DS` does not go anywhere **but it would be great if you could  prove me wrong!**.
+My first approach to solve this problem was to apply the same idea beneath the classical `Longest Increasing Subsequence` problem: however this is not an effective strategy.
+
+ In fact in our specific case we need somehow to take into consideration the possibility not to add an element because it was already added to the decreasing subsequence or viceversa.
+
+In a few words my strategy to model the state as  `opt(i,j) := the optimal solution when you add the i-th items to IS and the j-th item to DS` does not go anywhere **but it would be great if you could  prove me wrong!**.
 
 After spending more than 2 hours I decided to opt for a simple reasoning and try to implement it. Trivially for each item in the list you need to decide exclusively  to:
 

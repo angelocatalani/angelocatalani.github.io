@@ -3,7 +3,7 @@ layout: post
 title: Dynamic programming with Batman
 subtitle: An interesting problem about increasing and decreasing subsequences
 cover-img: /assets/img/thor.jpg
-thumbnail-img: /assets/img/tree.jpg
+thumbnail-img: /assets/img/batman.jpg
 share-img: /assets/img/thor.jpg
 tags: [algorithm,dynamic-programming,SPOJ]
 comments: true
@@ -143,7 +143,5 @@ This is my takeaway:
 
 Have a nice day 🚀 
 
-
-
-![Batman](/assets/img/batman.jpg)
+![Tree](/assets/img/tree.jpg)
 

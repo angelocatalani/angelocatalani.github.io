@@ -4,8 +4,8 @@ title: Dynamic programming with Batman
 subtitle: An interesting problem about increasing and decreasing subsequences
 cover-img: /assets/img/thor.jpg
 thumbnail-img: /assets/img/batman.jpg
-share-img: /assets/img/thor.jpg
-tags: [algorithm,dynamic-programming,SPOJ]
+share-img: /assets/img/batman.jpg
+tags: [algorithm,dynamic-programming,batman]
 comments: true
 ---
 

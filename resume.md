@@ -23,7 +23,7 @@ On July 2019, I Obtained my MSc in <strong>Engineering in Computer Science</stro
 <a href="http://aris.me/" target="_blank">Aris Anagnostopoulos</a> and <a href="http://ichatz.me/" target="_blank">Ioannis Chatzigiannakis</a>). My masters thesis project involved
 <a href="https://drive.google.com/file/d/1jZq8E1ZJkLabFedIG-wtL8IzepZdELkJ/view" target="_blank">developing machine learning algorithms to automatically detect heart arrhythmias</a>.
 The final grade was 110/110 with honors.<br><br>
-From September 2018 to October 2019, I was selected to participate to the <strong>Excellence Path</strong>. It is a program for tops tudents (5\%) of the faculty of Master in Engineering in Computer Science.<br><br>
+From September 2018 to October 2019, I was selected to participate to the <strong>Excellence Path</strong>. It is a program for tops tudents (5%) of the faculty of Master in Engineering in Computer Science.<br><br>
 On October 2017, I Obtained my BCs in <strong>Engineering in Computer Science</strong> from the University of Rome, La Sapienza. The final grade was 110/110 with honors.
 
 </p>

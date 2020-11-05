@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dynamic programming with Batman
+title: Dynamic Programming with Batman
 subtitle: An interesting problem about increasing and decreasing subsequences
 cover-img: /assets/img/thor.jpg
 thumbnail-img: /assets/img/batman.jpg

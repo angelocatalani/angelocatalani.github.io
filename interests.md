@@ -4,6 +4,8 @@ title: Interests
 subtitle: A bicycle ride around the world begins with a single pedal stroke - Scott Stoll
 share-title: "Angelo Catalani | About me"
 css: "/assets/css/aboutme.css"
+cover-img:
+  - "/assets/img/beautiful-images/bike.jpg" : "Landscape"
 ---
 
 <div id="aboutme-section">

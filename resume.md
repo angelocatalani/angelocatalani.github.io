@@ -15,8 +15,8 @@ Currently, I am an agile software engineer at <a href="https://www.claranet.it/"
 
 <p class="about-text">
 <span class="fa fa-graduation-cap about-icon"></span>
-I Obtained my MSc in <strong>Engineering in Computer Science</strong> from the University of Rome, La Sapienza (supervised by
-<a href="http://aris.me/" target="_blank">Aris Aris Anagnostopoulos</a> and <a href="http://ichatz.me/" target="_blank">Ioannis Chatzigiannakis</a>). My masters thesis project involved
+I Obtained my MSc in <strong>Engineering in Computer Science</strong> from the University of Rome, La Sapienza (supervised by 
+<a href="http://aris.me/" target="_blank">Aris Anagnostopoulos</a> and <a href="http://ichatz.me/" target="_blank">Ioannis Chatzigiannakis</a>). My masters thesis project involved
 <a href="https://drive.google.com/file/d/1jZq8E1ZJkLabFedIG-wtL8IzepZdELkJ/view" target="_blank">developing machine learning algorithms to automatically detect heart arrhythmias</a>.
 </p>
 

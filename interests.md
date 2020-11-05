@@ -4,16 +4,19 @@ title: Interests
 subtitle: A bicycle ride around the world begins with a single pedal stroke - Scott Stoll
 share-title: "Angelo Catalani | About me"
 css: "/assets/css/aboutme.css"
-cover-img:
-  - "/assets/img/beautiful-images/bike.jpg" : "Landscape"
 ---
 
 <div id="aboutme-section">
 
 <p class="about-text">
 <span class="fa fa-heart about-icon"></span>
-I'm addicted to soccer, cycling, reading and meeting new people :).<br> I support Juventus since I was 4 years old. I am totally astounded by <a href="https://en.wikipedia.org/wiki/Tadej_Poga%C4%8Dar">Pogačar</a> performace at Tour de France 2020. I am truly amazed by the world world time trial title won by <a href="https://en.wikipedia.org/wiki/Filippo_Ganna">Filippo Ganna</a>. This week (10 October 2020) I am reading the great book: <a href="https://www.amazon.it/Deep-Work-Focused-Success-Distracted-ebook/dp/B013UWFM52">Deep Work</a>.
+I'm addicted to soccer, cycling, reading and meeting new people :).<br> I support Juventus since I was 4 years old. I am totally astounded by <a href="https://en.wikipedia.org/wiki/Tadej_Poga%C4%8Dar">Pogačar</a> performace at Tour de France 2020. I am truly amazed by the world world time trial title won by <a href="https://en.wikipedia.org/wiki/Filippo_Ganna">Filippo Ganna</a>.
 </p>
+
+<p class="about-text">
+<span class="fa fa-book-reader about-icon"></span>
+Recently, I read the following books and I find them truly insightful: <i>The Alchemist - Paulo Coelho</i>, <i>Zero to One - Peter Thiel</i>,
+<i>Deep Work - Cal Newport</i>, <i>Outliers - Malcom Gladwell</i>, <i>The Hard Thing About Hard Things - Ben Horowitz</i>, <i>The Power of Habit - Charles Duhigg</i>.
 
 
 <p class="about-text">

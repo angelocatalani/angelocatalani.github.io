@@ -11,32 +11,32 @@ comments: true
 
 I could not celebrate my first post without talking about the most fascinating  algorithmic paradigm: *Dynamic Programming* - the sledgehammers of problem solving.
 
-To me it is an incredible point of contact between the abstractness of Maths and the concreteness of Programming: a love story about Maths, Recursion and Optimization. It is almost impossible to imagine something more powerful.
+To me, it is an incredible point of contact between the abstractness of Maths and the concreteness of Programming: a love story about Maths, Recursion and Optimization. It is almost impossible to imagine something more powerful.
 
-Herem I would like to discuss  [the *Batman* problem](https://www.spoj.com/problems/BAT2/) proposed by a [great course I have recently joined](https://www.commonlounge.com/discussion/cbb1cf5102e24774a2bd43daa5211230).
+Here, I would like to discuss  [the *Batman* problem](https://www.spoj.com/problems/BAT2/) proposed by a [great course I have recently joined](https://www.commonlounge.com/discussion/cbb1cf5102e24774a2bd43daa5211230).
 
 {: .box-note}
 Given a list of unique integers, find the increasing (`IS`) and decreasing (`DS`) subsequencses such that the overall number of distinct elements visited is maximum.  For example given `[5, 3, 4, 6, 1, 2]` the output is `5`  with `IS = [3, 6]` and `DS = [5, 4, 2]`.
 
-My first approach to solve this problem was to apply the same idea beneath the classical `Longest Increasing Subsequence` problem: however this is not an effective strategy.
+My first approach was to apply the same idea beneath the classical `Longest Increasing Subsequence` problem: unfortunately, this is not an effective strategy.
 
- In fact in our specific case we need somehow to take into consideration the possibility not to add an element because it was already added to the decreasing subsequence or viceversa.
+ In fact  we need somehow to take into consideration the possibility not to add an element because it was already added to the decreasing subsequence or viceversa.
 
 In a few words my strategy to model the state as  `opt(i,j) := the optimal solution when you add the i-th items to IS and the j-th item to DS` does not go anywhere **but it would be great if you could  prove me wrong!**.
 
-After spending more than 2 hours I decided to opt for a simple reasoning and try to implement it. Trivially for each item in the list you need to decide exclusively  to:
+After spending more than 2 hours, I decided to opt for a simple reasoning and try to implement it. Trivially for each item in the list you need to decide exclusively  to:
 
 - Add it (if possible) to the `IS`
 - Add it (if possible) to the `DS`
 - Discard it
 
-I implemented this with a recursive functions with exponential complexity.
+I implemented it through  a recursive functions with exponential complexity.
 
 ```C++
 int solve_batman(vector<int> values, int current_position, vector<int> increasing_seq,vector<int> decreasing_seq);
 ```
 
-Then, I noticed that I did not need the actual increasing or decreasing sequences but just the index of the latest element taken into consideration. This is what I came up with:
+Then, I noticed  I did not need the actual increasing or decreasing sequences but just the index of the latest element taken into consideration. This is what I came up with:
 
 ```c++
 int solve_batman(vector<int> values, int current_position, int last_increasing_idx, int last_decreasing_idx)

@@ -1,4 +1,4 @@
-# My personal website
+# Angelo's Blog
 
 This is where I will publish my thoughts and works.
 

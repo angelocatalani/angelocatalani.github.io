@@ -16,7 +16,7 @@ I'm addicted to soccer, cycling, reading and meeting new people :).<br> I suppor
 <p class="about-text">
 <span class="fa fa-book-reader about-icon"></span>
 Recently, I read the following books and I find them truly insightful: <i>The Alchemist - Paulo Coelho</i>, <i>Zero to One - Peter Thiel</i>,
-<i>Deep Work - Cal Newport</i>, <i>Outliers - Malcom Gladwell</i>, <i>The Hard Thing About Hard Things - Ben Horowitz</i>, <i>The Power of Habit - Charles Duhigg</i>.
+<i>Deep Work - Cal Newport</i>, <i>Outliers - Malcom Gladwell</i>, <i>The Hard Thing About Hard Things - Ben Horowitz</i>, <i>The Power of Habit - Charles Duhigg</i>, <i>Can' t hurt me - David Goggins</i>.
 </p>
 
 <p class="about-text">

@@ -2,9 +2,9 @@
 layout: post
 title: References and borrowing in Rust
 subtitle: How Rust enforces memory safety
-cover-img: /assets/img/rust.jpg
-thumbnail-img: /assets/img/rust.jpg
-share-img: /assets/img/rust.jpg
+cover-img: /assets/img/thor.jpg
+thumbnail-img: /assets/img/batman.jpg
+share-img: /assets/img/batman.jpg
 tags: [rust,programming-language,memory]
 comments: true
 ---

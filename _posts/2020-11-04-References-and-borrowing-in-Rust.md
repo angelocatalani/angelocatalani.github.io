@@ -40,8 +40,8 @@ The compiler does the best but sometimes it is too strict. NLL have improved the
     1: let mut v = vec![0];
     2: let r = &mut v;
     3: let r1 = &mut *r;
-    r.push_back(1); // r is reborrowed as &mut (*r) invalidating all previous references to (*v) -> r1
-    4: r1.push_back(2); // error because 
+    4: r.push_back(1); // r is reborrowed as &mut (*r) invalidating all previous references to (*v) -> r1
+    5: r1.push_back(2); // error 
     ```
 
     The error is due to the invalidation of `r1` when `r.push_back(1);` is called

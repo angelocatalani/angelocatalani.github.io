@@ -2,9 +2,9 @@
 layout: post
 title: References and borrowing in Rust
 subtitle: How Rust enforces memory safety
-cover-img: /assets/img/rust.jpg
+cover-img: /assets/img/rust.png
 thumbnail-img: /assets/img/rust.jpg
-share-img: /assets/img/rust.jpg
+share-img: /assets/img/rust.png
 tags: [rust,programming-language,memory]
 comments: true
 ---
@@ -66,7 +66,7 @@ The compiler does the best but sometimes it is too strict. NLL have improved the
 
 
 
-**2-Phase Borrows And Mutable References **:
+**2-Phase Borrows And Mutable References**:
 
 - ```rust
   let mut v = vec![1];

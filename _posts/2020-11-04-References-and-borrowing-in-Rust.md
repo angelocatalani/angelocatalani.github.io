@@ -3,7 +3,7 @@ layout: post
 title: References and borrowing in Rust
 subtitle: How Rust enforces memory safety
 cover-img: /assets/img/rust.png
-thumbnail-img: /assets/img/rust.jpg
+thumbnail-img: /assets/img/rust.png
 share-img: /assets/img/rust.png
 tags: [rust,programming-language,memory]
 comments: true
@@ -100,12 +100,8 @@ The compiler does the best but sometimes it is too strict. NLL have improved the
 
 **References**:
 
-- https://stackoverflow.com/questions/51015503/why-does-re-borrowing-only-work-on-de-referenced-pointers
-- https://stackoverflow.com/questions/45095523/why-does-creating-a-mutable-reference-to-a-dereferenced-mutable-reference-work
-- Outdated but useful: https://cotigao.medium.com/mutable-reference-in-rust-995320366e22
-- https://www.reddit.com/r/rust/comments/46qwjv/why_can_i_use_an_mut_reference_twice/
-- https://stackoverflow.com/questions/65477148/nested-method-calls-with-existing-mutable-references
-- https://users.rust-lang.org/t/nested-method-calls-with-existing-mutable-references/53345/2
+- [Reborrows](https://stackoverflow.com/questions/51015503/why-does-re-borrowing-only-work-on-de-referenced-pointers)
+- [Question on nested calls](https://users.rust-lang.org/t/nested-method-calls-with-existing-mutable-references/53345/2)
 
 Have a nice day 🚀 
 

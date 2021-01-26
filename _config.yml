@@ -17,7 +17,7 @@ navbar-links:
   Blog: "/"
   About Me: 
     - resume: "resume"
-    - interests: "interests"
+  #  - interests: "project"
   CV: "/cv_angelo.pdf"
 
 # --- Logo --- #

@@ -32,8 +32,8 @@ On October 2017, I Obtained my BCs in <strong>Engineering in Computer Science</s
 <p class="about-text">
 <span class="fa fa-award about-icon"></span>
 
-On August 2019, I was selected to particiapte to <a href="https://italy.firstascent.io/"><strong>First Ascent</strong></a> &mdash; a 3-day retreat celebrating the best Italian students with a degree in Computer Science.<br><br>
-On July 2019, I was selected to particiapte to the <a href="https://drive.google.com/file/d/18Lgu3-nhTgSDFdut5Ak7EkEtru5AB38I/view"><strong>Autonomous Driving Course</strong></a> &mdash;  specialization course aimed at 20 brilliant graduates in Computer Science.
+On August 2019, I was selected to participate to <a href="https://italy.firstascent.io/"><strong>First Ascent</strong></a> &mdash; a 3-day retreat celebrating the best Italian students with a degree in Computer Science.<br><br>
+On July 2019, I was selected to participate to the <a href="https://drive.google.com/file/d/18Lgu3-nhTgSDFdut5Ak7EkEtru5AB38I/view"><strong>Autonomous Driving Course</strong></a> &mdash;  specialization course aimed at 20 brilliant graduates in Computer Science.
 
 </p>
 
@@ -42,7 +42,6 @@ On July 2019, I was selected to particiapte to the <a href="https://drive.google
 <p class="about-text">
 <span class="fa fa-code about-icon"></span>
 I enjoy writing <strong>short & coincise software poems</strong> to solve problems and do innovation &mdash;
-I am proficient with: <b>Python</b>, <b>C/C++</b>, <b>Docker</b>,<b>Kubernetes</b>,, <b>Terraform</b>, <b>Google Cloud Platform</b>, <b> Amazon Web Services</b>.
 Sometimes, I participate to online coding contest.<br>
 <i>A great discovery solves a great problem, but there is a grain of discovery in the solution of any problem</i>
 - George Pólya. 

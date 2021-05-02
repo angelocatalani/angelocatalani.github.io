@@ -39,10 +39,10 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "catalaniangelo@gmail.com"
-#  github: "angelocatalani"
-# instagram: "angelocatalani/"
-#  linkedin: "angelo-catalani-3ab6b214a/"
+   email: "catalaniangelo@gmail.com"
+   github: "angelocatalani"
+#  instagram: "angelocatalani/"
+   linkedin: "angelo-catalani-3ab6b214a/"
 #  stackoverflow: "5578380/angelo"
 #  reddit: yourname
 #  linkedin: daattali
@@ -77,7 +77,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "angelocatalani.com"
+url-pretty: "angelocatalani.github.io"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
@@ -89,7 +89,7 @@ feed_show_excerpt: true
 feed_show_tags: true
 
 # The keywords to associate with your website, for SEO purposes
-keywords: "angelo,catalani,software,programming,blog,italy,developer,books,article,engineer,computer"
+keywords: "angelo,catalani,rust,backend,cs,computer science,software,programming,blog,italy,developer,books,article,engineer,computer"
 
 # --- Colours / background image --- #
 
@@ -127,7 +127,7 @@ footer-link-col: "#404040"
 # --- Web Analytics Section --- #
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-#gtag: ""
+gtag: "G-DPK4RHY5GR"
 
 # Fill in your Google Analytics ID to track your website using Google Analytics
 #google_analytics: ""

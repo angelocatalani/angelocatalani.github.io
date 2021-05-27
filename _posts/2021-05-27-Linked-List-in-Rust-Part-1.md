@@ -54,14 +54,12 @@ In fact in languages such as `C/C++` dealing with heap data results often in seg
 
 From the consideration above, the next design will use the `Box<T>` to allocate data on the heap:
 
-~~~rust
-```
+```rust
 pub enum Node<T> {
     Empty,
     Elem(T, Box<Node<T>>),
 }
 ```
-~~~
 
 **Ok implementation**
 

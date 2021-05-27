@@ -2,7 +2,7 @@
 layout: post
 title: Ok(linked list) in Rust
 subtitle: Learn Rust With Entirely Too Many Linked Lists
-cover-img: /assets/img/linked-list.jpg
+cover-img: /assets/img/linked-list2.png
 thumbnail-img: /assets/img/linked-list.jpg
 share-img: /assets/img/linked-list.jpg
 tags: [rust,programming-language,memory]

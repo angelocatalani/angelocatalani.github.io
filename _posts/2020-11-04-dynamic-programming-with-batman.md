@@ -11,7 +11,7 @@ comments: true
 
 I could not celebrate my first post without talking about the most fascinating  algorithmic paradigm: *Dynamic Programming* - the sledgehammers of problem solving.
 
-To me, it is an incredible point of contact between the abstractness of Maths and the concreteness of Programming: a love story about Maths, Recursion and Optimization. It is almost impossible to imagine something more powerful.
+To me, it is an incredible point of contact between the abstraction of Maths and the pragmatism of Programming: a love story about Maths, Recursion and Optimization. It is almost impossible to imagine something more powerful.
 
 Here, I would like to discuss  [the *Batman* problem](https://www.spoj.com/problems/BAT2/) proposed by a [great course I have recently joined](https://www.commonlounge.com/discussion/cbb1cf5102e24774a2bd43daa5211230).
 
@@ -141,7 +141,7 @@ int lis_as_batman(vector<int> values, int current_position, int last_increasing_
 This is my takeaway:
 
 - approach the problem in the easiest possible way
-- dealing with recursion, memoization is the best friend you can have
+- when dealing with recursion, memoization is the best friend you can have
 - a recursive approach to list all the possible solutions is not necessarily exponential if the parameters have bounded values
 - do not  force yourself to excessively think by similarities: try new routes
 

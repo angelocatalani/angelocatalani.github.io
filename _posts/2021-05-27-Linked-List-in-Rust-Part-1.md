@@ -15,7 +15,7 @@ My journey to learning Rust took me to the mind-blowing revalatory book that des
 
 **TL;DR**  After... the code compiled it worked correctly without any segmentation fault. This is the crucial distinguishing trait of `Rust` versus `C/C++`.
 
-Even if I will summarise just the first part of the book, there are many `Rust` concepts I completly ignored before and helped me to have a better understanding of the `Rust` memory model.
+Even if I will summarise just the first part of the book, there are many Rust  concepts I completly ignored before, and helped me to have a better understanding of the Rust memory model.
 
 **First implementation**
 
@@ -34,23 +34,23 @@ Data stored on the stack must have a known, fixed size at compile time.
 
 This because the compiler access to stack data using pre-computed offset at compile time.
 
-There was a proposal to introduce Variable Length Arrays in `C++11`, but eventually was dropped, because it would need large changes to the type system in C++.
+There was a proposal to introduce Variable Length Arrays in C++11, but eventually was dropped, because it would need large changes to the type system in C++.
 
 Stack data is allocated when a new function is called and deallocated when the function returns.
 It is local to the current thread.
 It is safe to use.
 
-But, in the example above the `enum Node` has a possibility infinite size that cannot be defined at compile time. So, we cannot use the `Stack` to allocate the next node.
+But, in the example above the `enum Node` has a possibily infinite size that cannot be defined at compile time. So, we cannot use the stack to allocate the next node.
 
-Data with an unknown size at compile time, or a size that might change can only be stored on the `heap`.
+Data with an unknown size at compile time, or a size that might change can only be stored on the heap.
 
 A reference to the data stored in the heap is kept on the stack.
 
 Heap data can persist even across multiple function call and is accessible to multiple threads.
 
-However, It is dangerous to use and managing safely  heap data is why `Rust` exists.
+In languages such as C/C++ dealing with heap data can result in segmentation fault, double free error and memory leaks. While memory leaks could happen also in Rust (quite difficult but possible), the (safe) Rust binary is always memory safe.
 
-In fact in languages such as `C/C++` dealing with heap data results often in segmentation fault, double free error and memory leaks. While memory leaks could happen also in Rust (even if you must do it on purpose), the (safe) Rust binary is always memory safe.
+Managing heap data is why ownership exists.
 
 From the consideration above, the next design will use the `Box<T>` to allocate data on the heap:
 
@@ -130,15 +130,13 @@ pub enum Node<T> {
 To solve the second issue we need to distinguish between the node and  the link to the next node:
  the node cannot be empty while the link can be.
 
-
-
 ```rust
 pub struct List<T> {
     head: Option<Box<Node<T>>>
 }
 pub struct Node<T> {
     value: T,
-    next: Option<Box<T>>
+    next: Option<Box<Node<T>>>
 }
 ```
 

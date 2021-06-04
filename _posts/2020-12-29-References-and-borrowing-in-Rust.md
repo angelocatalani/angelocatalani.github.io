@@ -28,41 +28,76 @@ The compiler does the best but sometimes it is too strict. NLL have improved the
 **Mental model** to understand how the compiler works:
 
 - A  mutable reference to the value: `let r = &mut v`, invalidates all the previous references to `v`.
-- Given: `let r1 = &mut v`. 
+
+- A mutable reference can transfer temporary  the *ability* to modify the value it referes to: `reborrows` and that ability will be returned as soon as the original variable is used.
+
+  Given: `let r1 = &mut v`. 
   - `let r2 = &mut v` invalidates the reference: `r1`
-  - `let r2 = &mut (*r1)` does not invalidate `r1` because it refers to `*r1` not to `v` even if the pointed memory is the same
+  - `let r2 = &mut (*r1)` does not invalidate `r1` , because `r1` is reborrowed. This means `r2` is valid as long as `r1` is not used later
 
 **Reborrows**
 
-- A function parameter that is a mutable reference causes a reborrow of the receiver:
+The idea behind reborrows is that a mutable reference can transfer its power to another variable for a limit amount of time.
 
-  - ```rust
-    1: let mut v = vec![0];
-    2: let r = &mut v;
-    3: let r1 = &mut *r;
-    4: r.push_back(1); // r is reborrowed as &mut (*r) invalidating all previous references to (*v) -> r1
-    5: r1.push_back(2); // error 
-    ```
+For example in the code below:
 
-    The error is due to the invalidation of `r1` when `r.push_back(1);` is called
+```rust
+1: let mut v = vec![0];
+2: let r = &mut v;
+3: let r1 = &mut *r; // reborrows
+4: r1.push(1);
+5: r.push(2);
+```
 
-    The last call, forces the lifetime of `r1` to last from `3 to 4 ` and it overlaps with `r.push_back(1); ` that creates a new reference to `&mut (*r)`
+`r1` is reborrowed from `r` and it is valid as long as `r` is not used. It is crucial to note that reborrows do not invalidate the previous references to the same variable. 
 
-    With NLL, without the last call the lifetime of `r` would have lasted only on line: `3`.
+However, a reborrowed reference cannot be used after the original reference is used again.
 
-- Reborrows do not break the rule to have only one mutable reference at a time:
+In fact the code below does not compile because `r1` reborrows temporarily from `r` but it is invalidated at line: 4 and cannot be used at line: 5.
 
-  - ```rust
-    1: let mut v = vec![0];
-    2: let r1 = &mut v;
-    3: let r2 = &mut (*r1)
-    4: r2.push_back(0);
-    5: r1.push_back(0);
-    ```
+```rust
+1: let mut v = vec![0];
+2: let r = &mut v;
+3: let r1 = &mut *r; // reborrows
+4: r.push(1);
+5: r1.push(2);
+```
 
-    Following our mental model it is ok because `r2` is a mutable reference to `*r1` while `r2` is a mutable reference to `v`.
+Reborrows are useful for mutable references as function parameters because mutable references do not implement the `Copy` trait. This means that the mutable reference is not longer valid after it is passed as parameter in the function.
 
-    However, the last line invalidates `r2` because the re-borrow creates a reference to `*r1`.
+Fortunately, mutable references are automatically reborrowed as function parameters. This is the reason why the following code works:
+
+```rust
+1: let mut v = vec![0];
+2: let r = &mut v;
+4: r.push(1); // r is reborrowed as &mut (*r) and not moved
+5: r.push(2); // r is not moved by the previous call
+```
+
+Reborrows explain why the following code works even if we have 2 mutable references to the same variable:
+
+- ```rust
+  1: let mut v = vec![0];
+  2: let r1 = &mut v;
+  3: let r2 = &mut (*r1) // r2 reborrows from r1 and it is valid as long as r1 is not modified
+  4: r2.push_back(0); // a new reborrows is implicitly created from r2 and it does not invalidate anything
+  5: r1.push_back(0); // r1 has not been invalidated since it has given temporary power to r2
+  // from this point we can no longer use r2 because it has been invalidated by the previous line that claims back the power previosuly given to r1
+  ```
+
+
+However, reborrows invalidate other previous reborrows to the same variable, following the classical rule of having only one mutable reference at a time.
+
+This is why the code below does not work.
+
+- ```rust
+  1: let mut v = vec![0];
+  2: let r = &mut v;
+  3: let r1 = &mut *r; // r1 reborrows r 
+  4: r.push(1); // r is reborrowed as &mut (*r) invalidating all previous references to (*r) -> r1
+  5: r1.push(2); // error: r1 has been invalidated by the previous call
+  ```
+
 
 
 
@@ -74,7 +109,7 @@ The compiler does the best but sometimes it is too strict. NLL have improved the
   r.push(r.len());
   ```
 
-  Without the 2 phase borrows the code will not compile because the outer call creates a reborrow of `r`: `&mut *r`, and the inner call a new immutable reborrow of the same value: `& *r`. 
+  Without the 2 phase borrows the code above will not compile because the outer call (`push()`) creates a reborrow of `r`: `&mut *r`, and the inner call a new immutable reborrow of the same value: `& *r`. 
 
   With 2-phase borrows, the first reborrows is converted to `&mut2 *r` and later activated when the second reborrow is out of scope.
 
@@ -86,7 +121,7 @@ The compiler does the best but sometimes it is too strict. NLL have improved the
 
   Even with the 2-phase borrows it does not compile.
 
-  The inner call, cause a reborrow of `v` that clashes with `r`
+  The inner call, causes an implicit borrow of `v` that clashes with `r`
 
 - ```rust
   let mut v = vec![1];

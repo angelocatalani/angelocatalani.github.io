@@ -15,8 +15,8 @@ author: Angelo Catalani
 
 navbar-links:
   Blog: "/"
-  About Me: 
-    - resume: "resume"
+  #About Me: 
+  #  - resume: "resume"
   #  - interests: "project"
   CV: "/cv_angelo.pdf"
 

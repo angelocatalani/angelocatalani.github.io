@@ -14,7 +14,7 @@ author: Angelo Catalani
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Blog: "/"
+  Home: "/"
   #About Me: 
   #  - resume: "resume"
   #  - interests: "project"

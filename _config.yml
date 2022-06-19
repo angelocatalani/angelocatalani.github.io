@@ -18,7 +18,7 @@ navbar-links:
   #About Me: 
   #  - resume: "resume"
   #  - interests: "project"
-  CV: "/cv_angelo.pdf"
+  # CV: "/cv_angelo.pdf"
 
 # --- Logo --- #
 
